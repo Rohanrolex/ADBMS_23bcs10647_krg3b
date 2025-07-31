@@ -26,7 +26,7 @@ int dfs(TreeNode* root , string path){
       int leftsum =   dfs(root->left , path);  //for lefttree
       int rightsum =  dfs(root->right, path); //for righttree
 
-return  leftsum + rightsum;  //  total sum 
+return  leftsum + rightsum;  //  total sum of the tree
    
 }
 
